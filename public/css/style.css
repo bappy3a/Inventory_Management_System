@@ -1,0 +1,109 @@
+
+.clock{
+	text-align: center;
+	
+	padding-top: 10px;
+
+}
+.clock ul{
+	margin-right: 50px;
+}
+.clock ul li {
+display: inline;
+font-size: 15px;
+font-family: "Arial", Helvetica, sans-serif;
+
+}
+#Date { 
+font-family: 'Arial', Helvetica, sans-serif;
+font-size: 15px;
+
+
+
+}
+
+#point {
+
+-moz-animation: mymove 1s ease infinite;
+-webkit-animation: mymove 1s ease infinite;
+
+}
+
+/* Animasi Detik Kedap - Kedip */
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+
+
+/*
+.clock {
+width: 260px;
+margin: 0 auto;
+padding: 30px;
+color: #FFF;background:#333;
+}
+.clock ul {
+width: 250px;
+margin: 0 auto;
+padding: 0;
+list-style: none;
+text-align: center
+}
+
+.clock ul li {
+display: inline;
+font-size: 3em;
+text-align: center;
+font-family: "Arial", Helvetica, sans-serif;
+text-shadow: 0 2px 5px #55c6ff, 0 3px 6px #55c6ff, 0 4px 7px #55c6ff
+}
+#Date { 
+font-family: 'Arial', Helvetica, sans-serif;
+font-size: 26px;
+text-align: center;
+text-shadow: 0 2px 5px #55c6ff, 0 3px 6px #55c6ff;
+padding-bottom: 40px;
+}
+
+#point {
+position: relative;
+-moz-animation: mymove 1s ease infinite;
+-webkit-animation: mymove 1s ease infinite;
+padding-left: 10px;
+padding-right: 10px
+}
+
+
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+
+*/
+
+table tr th{
+	font-weight: bold;
+	text-align: center;
+	}
+
+
+
